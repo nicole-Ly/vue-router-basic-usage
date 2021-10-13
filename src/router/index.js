@@ -1,6 +1,7 @@
 import Vue from 'vue'
 // import VueRouter from 'vue-router'
-import VueRouter from './Vue-Router'
+// import VueRouter from './Vue-Router-History'
+import VueRouter from './Vue-Router-Hash'
 import Index from '../views/Index.vue'
 // 1. 注册路由插件
 Vue.use(VueRouter)
